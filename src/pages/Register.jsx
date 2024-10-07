@@ -36,7 +36,6 @@ function Register() {
         // Successful registration
         alert("Account created successfully!");
         // Optionally redirect to login page
-        window.location.href = "/signin";
       }
     } catch (err) {
       // Handle error response
